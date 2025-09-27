@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+header {
+  padding: 20px;
+}
+
+#info-bar {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #ccc;
+}
+
+main {
+  padding: 20px;
+}
+
+input,
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+  max-width: 300px;
+}
+
+button {
+  background-color: #444;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #666;
+}
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  font-size: 0.8em;
+  color: #666;
+}
+
+/* RESPONSIVIDADE */
+
+/* Smartphones (até 600px) */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  input, button {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  #info-bar {
+    font-size: 0.8em;
+  }
+}
+
+/* Tablets (601px até 900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+  body {
+    font-size: 16px;
+  }
+
+  input, button {
+    width: 80%;
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+}
+
+/* Notebooks (901px até 1200px) */
+@media (min-width: 901px) and (max-width: 1200px) {
+  body {
+    font-size: 17px;
+  }
+
+  input, button {
+    width: 70%;
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+}
+
+/* Desktops grandes (acima de 1200px) */
+@media (min-width: 1201px) {
+  body {
+    font-size: 18px;
+  }
+
+  input, button {
+    width: 60%;
+    font-size: 17px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+}
